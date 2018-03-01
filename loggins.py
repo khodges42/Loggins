@@ -1,3 +1,11 @@
+'''example
+date,event,source,dest,inbound,port,sketchy
+2017-08-29 22:22:00,Bad Credentials,192.168.10.123,189.11.40.44,inbound,20,False
+2017-05-27 16:04:26,Bad Credentials,7.206.9.20,192.168.8.132,outbound,110,False
+2017-08-20 23:32:23,Connection Opened,179.42.254.30,192.168.3.73,outbound,443,True
+2016-02-20 05:23:13,Connection Closed,192.168.5.50,40.166.222.87,inbound,110,False
+'''
+
 import random
 import string
 import os
